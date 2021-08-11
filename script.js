@@ -13,6 +13,7 @@ function compute() {
     if(principal <= 0) {
         alert("Enter a positive number");
         document.getElementById("principal").focus();
+        return;
     }
 
     // gets all the relevant data and assign them to respective fields
