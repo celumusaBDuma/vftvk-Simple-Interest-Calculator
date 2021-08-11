@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
     font-family: arial;
@@ -12,8 +18,25 @@ h1 {
 .maindiv {
     background-color: white;
     color: black;
-    width: 300px;
+    width: 500px;
     padding: 20px;
     border-radius: 25px;
     margin: auto;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input, select {
+    margin: 5px 0 5px 30px;
+}
+
+.inputs {
+    margin-left: 50px;
+}
+
+#rate_val {
+    padding: 5px;
 }
